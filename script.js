@@ -6,9 +6,9 @@ var eta = prompt("inserisci la tua età");
 // var src = document.getElementById("header");
 // src.appendChild(img);
 
-if (parseInt(eta) == Nan) {
+if (parseInt(eta) == NaN) {
   eta = prompt("inserisci la tua età, non fare il biricchino!");
-  
+
 } else {
   var km = prompt("inserisci i chilometri che vuoi percorrere");
 
