@@ -1,5 +1,13 @@
 var eta = prompt("inserisci la tua età");
 
+// controllo se è valore numerico
+
+if (parseInt(eta) = NaN) {
+  var eta = prompt("inserisci la tua età");
+} else {
+
+}
+
 var km = prompt("inserisci i chilometri che vuoi percorrere");
 
 var prezzoBigliettokm = 0.21;
@@ -11,9 +19,9 @@ var bigliettoScontato = "";
 // calcolo lo sconto
 
 if (eta > 65) {
-  bigliettoScontato = costoBiglietto * 0.40;
+  bigliettoScontato = costoBiglietto - (costoBiglietto * 0.40);
 } else if (eta < 18){
-  bigliettoScontato = costoBiglietto * 0.20;
+  bigliettoScontato = costoBiglietto - (costoBiglietto * 0.20);
 } else {
   bigliettoScontato = costoBiglietto ;
 }
