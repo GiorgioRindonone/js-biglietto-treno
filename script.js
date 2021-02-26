@@ -1,11 +1,18 @@
 var eta = prompt("inserisci la tua età");
 
 // controllo se è valore numerico
-
-
+var img = "";
+var src = "";
 if (isNaN(eta) == true) {
 
-  
+  // document.getElementById('box').style.background = 'url('+ehh.jpg+')';
+
+  // img = document.createElement("img");
+  // img.src = "ehh.jpg";
+  // src = document.getElementById("header");
+  // src.appendChild(img);
+  document.getElementById("box").style.backgroundImage = "url('ehh.jpg')";
+
   eta = prompt("inserisci la tua età, non fare il biricchino!");
 
 }
