@@ -1,12 +1,11 @@
 var eta = prompt("inserisci la tua età");
 
 // controllo se è valore numerico
-// var img = document.createElement("img");
-// img.src = "https://originedelmeme.altervista.org/wp-content/uploads/2020/10/leonardo-dicaprio-laughing-and-mocking-meme-32fe0f916dc31d24159d62525b0a4496.jpg";
-// var src = document.getElementById("header");
-// src.appendChild(img);
 
-if (parseInt(eta) == true) {
+
+if (isNaN(eta) == true) {
+
+  
   eta = prompt("inserisci la tua età, non fare il biricchino!");
 
 }
